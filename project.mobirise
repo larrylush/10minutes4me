@@ -263,7 +263,7 @@
     "uniqCompNum": 46,
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
