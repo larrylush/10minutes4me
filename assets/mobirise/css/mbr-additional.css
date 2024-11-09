@@ -1335,6 +1335,13 @@ a {
     padding: 1rem;
   }
 }
+.cid-utrh5X4q3J {
+  background-image: url("../../../assets/images/mbr-1-1920x1278.jpg");
+}
+.cid-utrh5X4q3J .mbr-overlay {
+  background-color: #d7b6ec;
+  opacity: 0.4;
+}
 .cid-utrh5X4q3J .mbr-fallback-image.disabled {
   display: none;
 }
@@ -1346,7 +1353,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-utrh5X40OL {
   padding-top: 10rem;
