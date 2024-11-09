@@ -8606,6 +8606,11 @@ a {
 .cid-utFHUYP9z3 {
   padding-top: 24rem;
   padding-bottom: 4rem;
+  background-image: url("../../../assets/images/photo-1491772135384-20292e4b5ea1.jpeg");
+}
+.cid-utFHUYP9z3 .mbr-overlay {
+  background-color: #d7b6ec;
+  opacity: 0.4;
 }
 .cid-utFHUYP9z3 .mbr-fallback-image.disabled {
   display: none;
@@ -8618,7 +8623,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/mbr-1920x1278.jpg");
 }
 .cid-utFHUZ6zn9 {
   padding-top: 0rem;
