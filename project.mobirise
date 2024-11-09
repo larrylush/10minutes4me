@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sound Healing",
-    "currentPage": "index.html",
+    "currentPage": "page4.html",
     "ai": {
       "prompt": "Start each day the way you mean to go on. Use the healing power of sound to help you start the day to help you take the stress away to help you fall asleep  or to help you through the week. Take 10 minutes out for yourself every day. 10 minutes for me. 10minutes.me",
       "imageSearchQuery": "calm"
@@ -259,7 +259,7 @@
         "css": "'Inter Tight', sans-serif"
       }
     ],
-    "uniqCompNum": 43,
+    "uniqCompNum": 44,
     "imageResize": true,
     "screenshot": "screenshot.png",
     "publishChangesOnly": true
@@ -5138,9 +5138,290 @@
           },
           "_name": "article08",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article8\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <div class=\"image-wrapper d-flex justify-content-center mb-4\">\n            <img mbr-if=\"showImage\" src=\"@PROJECT_PATH@/assets/images/mbr-718x718.png\" alt=\"sleep sounds\">\n          </div>\n          <div class=\"card-content-text\">\n            <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Sound and Music to Help You Sleep</b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>A Natural Path to Restful Nights</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br>Quality sleep has become increasingly elusive. Whether due to stress, anxiety, or the constant bombardment of digital distractions, many people struggle with falling asleep or staying asleep throughout the night. While there are countless sleep aids available on the market—ranging from pills to gadgets—one of the most natural and effective methods for improving sleep is often overlooked: sound and music.<br><br>From soothing soundscapes to gentle melodies, sound has the unique ability to calm the nervous system, ease anxiety, and help the brain transition into a state conducive to rest. In this article, we’ll explore how sound and music can improve sleep quality and offer practical tips on incorporating these elements into your nighttime routine.<br><br><b>The Science of Sound and Sleep<br></b><br>Sound plays a significant role in how we experience and process our surroundings. In the context of sleep, certain types of sound can help synchronise our brainwaves, slow down our heart rate, and create a relaxing environment that signals to our body that it's time to wind down. The science behind how sound affects sleep is rooted in both **brainwave entrainment** and **autonomic nervous system regulation**.<br><br><b>Brainwave Entrainment<br></b><br>Brainwave entrainment refers to the phenomenon where the brain synchronises its electrical activity with external rhythms or frequencies. Our brainwaves operate at different frequencies depending on our mental state. For example:<br><br><b>Beta waves&nbsp;</b>(14-30 Hz) are associated with active thinking and alertness, commonly present when we’re awake and engaged.<br><br><b>Alpha waves&nbsp;</b>(8-13 Hz) emerge during relaxed, calm states, such as when you’re daydreaming or meditating.<br><br><b>Theta waves</b> (4-7 Hz) are deep meditative or light sleep states.<br><br><b>Delta waves&nbsp;</b>(0.5-4 Hz) occur during deep sleep, a restorative phase of rest.<br><br>Certain sounds, such as binaural beats or isochronic tones, can encourage the brain to shift into these lower-frequency states, particularly alpha, theta, and delta, which promote relaxation and restorative sleep.<br><br><b>Autonomic Nervous System Regulation<br></b><br>The autonomic nervous system (ANS) controls involuntary functions like heart rate, digestion, and breathing. It has two branches: the <b>sympathetic nervous system</b>&nbsp;(SNS), which triggers the fight-or-flight response, and the <b>parasympathetic nervous system</b> (PNS), which helps the body relax and restore balance.<br><br>Stress and anxiety can activate the SNS, making it difficult to unwind before bed. However, soothing sounds—such as soft music, white noise, or nature sounds—can activate the PNS, lowering heart rate and reducing muscle tension, signalling to the body that it’s time to rest.<br><br><b>The Role of Sound and Music in Sleep<br></b><br>Different types of sound and music have distinct effects on the body and mind. Here are some of the most effective options for enhancing sleep:<br><br><b>Nature Sounds</b><br><b><br></b>Nature sounds, such as ocean waves, rain, birdsong, or rustling leaves, are among the most popular sleep aids. These sounds are often associated with calmness and tranquility, mimicking a peaceful environment that encourages relaxation. Studies have shown that listening to nature sounds can lower heart rate, reduce stress levels, and help people fall asleep faster.<br><br><b>White Noise<br></b><br>White noise is a consistent sound that contains all frequencies in equal measure, like the sound of a fan, a vacuum, or static on a TV. It can mask disruptive noises, such as traffic or snoring, which might otherwise disturb sleep. White noise creates a constant auditory backdrop, which is soothing and less likely to startle you awake.<br>  <br><b>Pink Noise and Brown Noise </b><br><br>These are variations of white noise, with more emphasis on lower frequencies. Pink noise has a deeper sound—think of rain or wind in a forest—and is known to enhance deep sleep by promoting delta brainwaves. Brown noise has even lower frequencies and may be more effective for people who struggle with deep, restorative sleep.<br><br><b>Binaural Beats</b><br><b><br></b>Binaural beats are a form of auditory illusion created when two slightly different frequencies are played in each ear. The brain perceives a third tone, which is the difference between the two frequencies, creating a \"beat\" at a specific frequency. For example, if one ear hears a 300 Hz sound and the other hears a 310 Hz sound, the brain detects a 10 Hz beat.<br><br>Different binaural beats correspond to different brainwave states:<br><br>Listening to binaural beats before bed can help the brain reach the optimal frequencies for sleep, making it easier to drift off and stay asleep.<br><br><b>Soothing Music</b><br><b><br></b><br>Slow, gentle music can create an atmosphere conducive to sleep. Research has shown that listening to calming music can significantly improve sleep quality, especially in individuals with insomnia or anxiety. Classical music, ambient instrumental tracks, or even soft jazz can help quiet the mind and lower stress levels.<br><br><b>Tempo and Rhythm<br></b><br>Music with a slow tempo (around 60-80 beats per minute) is particularly effective for promoting relaxation, as it mirrors the natural rhythm of the heart when in a restful state.<br><b><br></b><br><b>Instrumental or Vocal</b><br><b><br></b>Music without lyrics, such as instrumental or classical compositions, tends to be the most effective, as lyrics can sometimes engage the mind and distract from the process of falling asleep.<br><br><b>Guided Sleep Meditations and Sleep Stories<br></b><br>For those who struggle with racing thoughts or anxiety before bedtime, guided sleep meditations or sleep stories can be highly effective. These audio recordings often combine calming music, gentle spoken words, and relaxation techniques to guide listeners through a process of deep relaxation. Meditation recordings may lead listeners through a body scan, breathing exercises, or visualisation, all of which promote a state of tranquility and readiness for sleep.<br><br><b>Tips for Incorporating Sound into Your Sleep Routine<br></b><br>To make the most of sound and music for better sleep, consider these tips:<br><br>1. <b>Choose Calming Sounds</b> Select sounds or music that you find soothing. Avoid anything too stimulating or upbeat, which might keep you awake. Nature sounds, gentle white noise, and soft instrumental music are ideal.<br><br>2. <b>Create a Consistent Routine</b> Use sound regularly to signal to your body that it's time to wind down. Create a bedtime playlist of your favourite relaxing music or nature sounds and listen to it every night before bed. Consistency will help reinforce the association between these sounds and sleep.<br><br>3. <b>Limit Screen Time</b> Avoid using screens (phones, tablets, or computers) right before bed, as the blue light emitted from these devices can disrupt the production of melatonin, a hormone that regulates sleep. Opt for a physical sound source, such as a white noise machine or a speaker, to play soothing audio instead.<br><br>4. <b>Keep the Volume Low</b> Set your audio at a low, gentle volume. Sound that is too loud can be disruptive and counterproductive, preventing you from reaching a restful state.<br><br><b>Conclusion: A Natural Path to Better Sleep</b><br><br>Incorporating sound and music into your nightly routine can be a simple yet powerful way to improve sleep quality. Whether you’re listening to the calming sounds of nature, relaxing music, or binaural beats, the right sound can help reduce stress, quiet your mind, and promote a deeper, more restful night’s sleep. <br><br>By tapping into the therapeutic effects of sound, you can create an environment that not only helps you fall asleep faster but also allows you to wake up feeling more refreshed and rejuvenated. So, the next time you struggle with sleeplessness, try turning to the soothing power of sound—it might be the perfect remedy for a better night’s rest.</p>\n              </div>\n            </div>\n            \n            \n\n            <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n              <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article8\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <div class=\"image-wrapper d-flex justify-content-center mb-4\">\n            <img mbr-if=\"showImage\" src=\"@PROJECT_PATH@/assets/images/mbr-718x718.png\" alt=\"sleep sounds\">\n          </div>\n          <div class=\"card-content-text\">\n            <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Sound and Music to Help You Sleep</b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12 active\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>A Natural Path to Restful Nights <a href=\"page4.html#audiobar-17\" class=\"text-primary\">(Listen Now)</a></b><b><br></b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br>Quality sleep has become increasingly elusive. Whether due to stress, anxiety, or the constant bombardment of digital distractions, many people struggle with falling asleep or staying asleep throughout the night. While there are countless sleep aids available on the market—ranging from pills to gadgets—one of the most natural and effective methods for improving sleep is often overlooked: sound and music.<br><br>From soothing soundscapes to gentle melodies, sound has the unique ability to calm the nervous system, ease anxiety, and help the brain transition into a state conducive to rest. In this article, we’ll explore how sound and music can improve sleep quality and offer practical tips on incorporating these elements into your nighttime routine.<br><br><b>The Science of Sound and Sleep<br></b><br>Sound plays a significant role in how we experience and process our surroundings. In the context of sleep, certain types of sound can help synchronise our brainwaves, slow down our heart rate, and create a relaxing environment that signals to our body that it's time to wind down. The science behind how sound affects sleep is rooted in both **brainwave entrainment** and **autonomic nervous system regulation**.<br><br><b>Brainwave Entrainment<br></b><br>Brainwave entrainment refers to the phenomenon where the brain synchronises its electrical activity with external rhythms or frequencies. Our brainwaves operate at different frequencies depending on our mental state. For example:<br><br><b>Beta waves&nbsp;</b>(14-30 Hz) are associated with active thinking and alertness, commonly present when we’re awake and engaged.<br><br><b>Alpha waves&nbsp;</b>(8-13 Hz) emerge during relaxed, calm states, such as when you’re daydreaming or meditating.<br><br><b>Theta waves</b> (4-7 Hz) are deep meditative or light sleep states.<br><br><b>Delta waves&nbsp;</b>(0.5-4 Hz) occur during deep sleep, a restorative phase of rest.<br><br>Certain sounds, such as binaural beats or isochronic tones, can encourage the brain to shift into these lower-frequency states, particularly alpha, theta, and delta, which promote relaxation and restorative sleep.<br><br><b>Autonomic Nervous System Regulation<br></b><br>The autonomic nervous system (ANS) controls involuntary functions like heart rate, digestion, and breathing. It has two branches: the <b>sympathetic nervous system</b>&nbsp;(SNS), which triggers the fight-or-flight response, and the <b>parasympathetic nervous system</b> (PNS), which helps the body relax and restore balance.<br><br>Stress and anxiety can activate the SNS, making it difficult to unwind before bed. However, soothing sounds—such as soft music, white noise, or nature sounds—can activate the PNS, lowering heart rate and reducing muscle tension, signalling to the body that it’s time to rest.<br><br><b>The Role of Sound and Music in Sleep<br></b><br>Different types of sound and music have distinct effects on the body and mind. Here are some of the most effective options for enhancing sleep:<br><br><b>Nature Sounds</b><br><b><br></b>Nature sounds, such as ocean waves, rain, birdsong, or rustling leaves, are among the most popular sleep aids. These sounds are often associated with calmness and tranquility, mimicking a peaceful environment that encourages relaxation. Studies have shown that listening to nature sounds can lower heart rate, reduce stress levels, and help people fall asleep faster.<br><br><b>White Noise<br></b><br>White noise is a consistent sound that contains all frequencies in equal measure, like the sound of a fan, a vacuum, or static on a TV. It can mask disruptive noises, such as traffic or snoring, which might otherwise disturb sleep. White noise creates a constant auditory backdrop, which is soothing and less likely to startle you awake.<br>  <br><b>Pink Noise and Brown Noise </b><br><br>These are variations of white noise, with more emphasis on lower frequencies. Pink noise has a deeper sound—think of rain or wind in a forest—and is known to enhance deep sleep by promoting delta brainwaves. Brown noise has even lower frequencies and may be more effective for people who struggle with deep, restorative sleep.<br><br><b>Binaural Beats</b><br><b><br></b>Binaural beats are a form of auditory illusion created when two slightly different frequencies are played in each ear. The brain perceives a third tone, which is the difference between the two frequencies, creating a \"beat\" at a specific frequency. For example, if one ear hears a 300 Hz sound and the other hears a 310 Hz sound, the brain detects a 10 Hz beat.<br><br>Different binaural beats correspond to different brainwave states:<br><br>Listening to binaural beats before bed can help the brain reach the optimal frequencies for sleep, making it easier to drift off and stay asleep.<br><br><b>Soothing Music</b><br><b><br></b><br>Slow, gentle music can create an atmosphere conducive to sleep. Research has shown that listening to calming music can significantly improve sleep quality, especially in individuals with insomnia or anxiety. Classical music, ambient instrumental tracks, or even soft jazz can help quiet the mind and lower stress levels.<br><br><b>Tempo and Rhythm<br></b><br>Music with a slow tempo (around 60-80 beats per minute) is particularly effective for promoting relaxation, as it mirrors the natural rhythm of the heart when in a restful state.<br><b><br></b><br><b>Instrumental or Vocal</b><br><b><br></b>Music without lyrics, such as instrumental or classical compositions, tends to be the most effective, as lyrics can sometimes engage the mind and distract from the process of falling asleep.<br><br><b>Guided Sleep Meditations and Sleep Stories<br></b><br>For those who struggle with racing thoughts or anxiety before bedtime, guided sleep meditations or sleep stories can be highly effective. These audio recordings often combine calming music, gentle spoken words, and relaxation techniques to guide listeners through a process of deep relaxation. Meditation recordings may lead listeners through a body scan, breathing exercises, or visualisation, all of which promote a state of tranquility and readiness for sleep.<br><br><b>Tips for Incorporating Sound into Your Sleep Routine<br></b><br>To make the most of sound and music for better sleep, consider these tips:<br><br>1. <b>Choose Calming Sounds</b> Select sounds or music that you find soothing. Avoid anything too stimulating or upbeat, which might keep you awake. Nature sounds, gentle white noise, and soft instrumental music are ideal.<br><br>2. <b>Create a Consistent Routine</b> Use sound regularly to signal to your body that it's time to wind down. Create a bedtime playlist of your favourite relaxing music or nature sounds and listen to it every night before bed. Consistency will help reinforce the association between these sounds and sleep.<br><br>3. <b>Limit Screen Time</b> Avoid using screens (phones, tablets, or computers) right before bed, as the blue light emitted from these devices can disrupt the production of melatonin, a hormone that regulates sleep. Opt for a physical sound source, such as a white noise machine or a speaker, to play soothing audio instead.<br><br>4. <b>Keep the Volume Low</b> Set your audio at a low, gentle volume. Sound that is too loud can be disruptive and counterproductive, preventing you from reaching a restful state.<br><br><b>Conclusion: A Natural Path to Better Sleep</b><br><br>Incorporating sound and music into your nightly routine can be a simple yet powerful way to improve sleep quality. Whether you’re listening to the calming sounds of nature, relaxing music, or binaural beats, the right sound can help reduce stress, quiet your mind, and promote a deeper, more restful night’s sleep. <br><br>By tapping into the therapeutic effects of sound, you can create an environment that not only helps you fall asleep faster but also allows you to wake up feeling more refreshed and rejuvenated. So, the next time you struggle with sleeplessness, try turning to the soothing power of sound—it might be the perfect remedy for a better night’s rest.</p>\n              </div>\n            </div>\n            \n            \n\n            <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n              <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
           "_cid": "utxzplhn2d",
           "_anchor": "article08-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "zen2cool-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "& when not (@transp)": {
+                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
+              },
+              "& when (@transp)": {
+                "background": "transparent"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".contenair": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "@keyframes spin": {
+              "from": {
+                "transform": "rotateZ(0)"
+              },
+              "to": {
+                "transform": "rotateZ(1turn)"
+              }
+            },
+            ".green-audio-player": {
+              "width": "(@PlaySize * 1px)",
+              "@media (max-width: (@Breakpoint * 1px))": {
+                "width": "300px"
+              },
+              "min-width": "300px",
+              "height": "56px",
+              "box-shadow": "0 4px 16px 0 rgba(0, 0, 0, 0.07)",
+              "display": "flex !important",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "padding-left": "24px",
+              "padding-right": "24px",
+              "border-radius": "(@PlayRad * 1px)",
+              "user-select": "none",
+              "background-color": "@PlayerCol",
+              "box-sizing": "border-box",
+              "outline": "none"
+            },
+            ".green-audio-player.player-accessible .play-pause-btn:hover, .green-audio-player.player-accessible .controls:hover, .green-audio-player.player-accessible .volume__button:hover, .green-audio-player.player-accessible .volume__controls:hover, .green-audio-player.player-accessible .download:hover": {
+              "outline": "dotted 1px #999"
+            },
+            ".green-audio-player svg, .green-audio-player img": {
+              "display": "block"
+            },
+            ".green-audio-player .holder": {
+              "position": "relative"
+            },
+            ".green-audio-player .holder .loading .loading__spinner": {
+              "position": "absolute",
+              "left": "-3px",
+              "bottom": "2px",
+              "width": "16px",
+              "height": "16px",
+              "border": "2px solid #b0b0b0",
+              "border-right-color": "rgba(0, 0, 0, 0)",
+              "border-radius": "50%",
+              "animation": "spin 0.4s linear infinite"
+            },
+            ".green-audio-player .holder .play-pause-btn": {
+              "visibility": "hidden",
+              "cursor": "pointer",
+              "outline": "none",
+              "fill": "@PlPaCol"
+            },
+            ".green-audio-player .holder .play-pause-btn:focus": {
+              "outline": "none"
+            },
+            ".green-audio-player .slider": {
+              "flex-grow": "1",
+              "background-color": "@PinCol2",
+              "cursor": "pointer",
+              "position": "relative"
+            },
+            ".green-audio-player .slider .gap-progress": {
+              "background-color": "@SliderCol",
+              "border-radius": "inherit",
+              "position": "absolute",
+              "pointer-events": "none"
+            },
+            "& when (@Dotonoff)": {
+              ".green-audio-player .slider .gap-progress .pin": {
+                "height": "16px",
+                "width": "16px",
+                "border-radius": "8px",
+                "background-color": "@ProgressCol",
+                "position": "absolute",
+                "pointer-events": "all",
+                "box-shadow": "0 1px 1px 0 rgba(0, 0, 0, 0.32)"
+              }
+            },
+            "& when not (@Dotonoff)": {
+              ".green-audio-player .slider .gap-progress .pin": {
+                "height": "16px",
+                "width": "16px",
+                "border-radius": "8px",
+                "background-color": "transparent",
+                "position": "absolute",
+                "pointer-events": "all"
+              }
+            },
+            ".green-audio-player .slider .gap-progress .pin::after": {
+              "content": "\"\"",
+              "display": "block",
+              "background": "rgba(0, 0, 0, 0)",
+              "width": "200%",
+              "height": "200%",
+              "margin-left": "-50%",
+              "margin-top": "-50%",
+              "border-radius": "50%"
+            },
+            ".green-audio-player .controls": {
+              "font-family": "\"Roboto\", sans-serif",
+              "font-size": "16px",
+              "line-height": "18px",
+              "color": "@TimeCol",
+              "display": "flex",
+              "flex-grow": "1",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "margin-left": "15px",
+              "margin-right": "15px",
+              "outline": "none"
+            },
+            ".green-audio-player .controls .controls__slider": {
+              "margin-left": "16px",
+              "margin-right": "16px",
+              "border-radius": "2px",
+              "height": "4px"
+            },
+            ".green-audio-player .controls .controls__slider .controls__progress": {
+              "width": "0",
+              "height": "100%"
+            },
+            ".green-audio-player .controls .controls__slider .controls__progress .progress__pin": {
+              "right": "-8px",
+              "top": "-6px"
+            },
+            ".green-audio-player .controls span": {
+              "cursor": "default"
+            },
+            ".green-audio-player .controls:focus": {
+              "outline": "none"
+            },
+            ".green-audio-player .volume": {
+              "position": "relative"
+            },
+            "& when (@Volumeoff)": {
+              ".green-audio-player .volume_test": {
+                "height": "24px",
+                "width": "24px"
+              }
+            },
+            "& when not (@Volumeoff)": {
+              ".green-audio-player .volume_test": {
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            ".green-audio-player .volume .volume__button": {
+              "cursor": "pointer",
+              "outline": "none",
+              "fill": "@VolCol"
+            },
+            ".green-audio-player .volume .volume__button:focus": {
+              "outline": "none"
+            },
+            ".green-audio-player .volume .volume__button.open path": {
+              "fill": "@VolumeCol"
+            },
+            ".green-audio-player .volume .volume__controls": {
+              "width": "30px",
+              "height": "135px",
+              "background-color": "@VolColBack",
+              "opacity": "@VolBckCol",
+              "border-radius": "7px",
+              "position": "absolute",
+              "left": "-3px",
+              "bottom": "52px",
+              "flex-direction": "column",
+              "align-items": "center",
+              "display": "flex",
+              "z-index": "2",
+              "outline": "none"
+            },
+            ".green-audio-player .volume .volume__controls .volume__slider": {
+              "margin-top": "12px",
+              "margin-bottom": "12px",
+              "width": "6px",
+              "border-radius": "3px"
+            },
+            ".green-audio-player .volume .volume__controls .volume__slider .volume__progress": {
+              "bottom": "0",
+              "height": "100%",
+              "width": "6px"
+            },
+            ".green-audio-player .volume .volume__controls .volume__slider .volume__progress .volume__pin": {
+              "left": "-5px",
+              "top": "-8px"
+            },
+            ".green-audio-player .volume .volume__controls:focus": {
+              "outline": "none"
+            },
+            ".green-audio-player .volume .volume__controls.hidden": {
+              "display": "none"
+            },
+            ".green-audio-player .volume .volume__controls.top": {
+              "bottom": "52px",
+              "left": "-3px"
+            },
+            ".green-audio-player .volume .volume__controls.middle": {
+              "bottom": "-54px",
+              "left": "54px"
+            },
+            ".green-audio-player .volume .volume__controls.bottom": {
+              "bottom": "-164px",
+              "left": "-3px"
+            },
+            ".green-audio-player .download__link": {
+              "fill": "@DownCol"
+            },
+            ".green-audio-player .download": {
+              "display": "none",
+              "margin-left": "16px",
+              "cursor": "pointer",
+              "outline": "none",
+              "fill": "@DownCol"
+            },
+            ".green-audio-player .download:focus": {
+              "outline": "none"
+            },
+            ".green-audio-player:focus": {
+              "outline": "none"
+            },
+            ".message__offscreen": {
+              "border": "0",
+              "clip": "rect(1px, 1px, 1px, 1px)",
+              "clip-path": "inset(50%)",
+              "height": "1px",
+              "margin": "-1px",
+              "overflow": "hidden",
+              "padding": "0",
+              "position": "absolute",
+              "width": "1px",
+              "word-wrap": "normal"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".mbr-text": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          },
+          "_name": "audiobar",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section\" plugins=\"audiobar\" group=\"Zen2cool Blocks\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n      <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\n\t <header>Player ID</header>\n\t\t        <input type=\"range\" inline=\"\" title=\"Player ID (must be unique in each audio block on page)\" name=\"NumberPlayer\" min=\"1\" max=\"100\" step=\"1\" value=\"3\">v\n\t\t\n\t\t <header>Basic Settings</header>\n\t\t\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n                <input type=\"checkbox\" title=\"Texte\" name=\"showSubtxt\" checked=\"\">\n\n <header>Player Config</header>\n        <input type=\"range\" inline=\"\" title=\"Player Width\" name=\"PlaySize\" min=\"300\" max=\"1000\" step=\"1\" value=\"493\">\n                <input type=\"range\" inline=\"\" title=\"Player Radius\" name=\"PlayRad\" min=\"0\" max=\"100\" step=\"1\" value=\"38\">\n                       <input type=\"range\" inline=\"\" title=\"Player Size Breakpoint\" name=\"Breakpoint\" min=\"500\" max=\"1500\" step=\"25\" value=\"900\">\n        <input type=\"color\" title=\"Player Color\" name=\"PlayerCol\" value=\"#a6a99c\">\n        <select title=\"Position\" name=\"Positionpl\">\n        <option value=\"star\" selected=\"\">Left</option>\n        <option value=\"center\">Center</option>\n         <option value=\"end\">Right</option>\n        </select>\n\n       <header>Buttons Color</header>\n        <input type=\"color\" title=\"Play/Pause Button\" name=\"PlPaCol\" value=\"#ffffff\">\n                   <input type=\"checkbox\" title=\"Volume On/Off\" name=\"Volumeoff\" checked=\"\">\n         <input type=\"color\" title=\"Volume Button\" name=\"VolCol\" value=\"#ffffff\" condition=\"Volumeoff\">\n         <input type=\"color\" title=\"Volume Push Color\" name=\"VolumeCol\" value=\"#000000\" condition=\"Volumeoff\">  \n\t\t <input type=\"color\" title=\"Background Volume\" name=\"VolColBack\" value=\"#ffffff\" condition=\"Volumeoff\">\n        <input type=\"range\" inline=\"\" title=\"Vol Background Opacity\" name=\"VolBckCol\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"Volumeoff\">\n        <input type=\"color\" title=\"Slider Color\" name=\"SliderCol\" value=\"#fe732f\">\n        <input type=\"color\" title=\"Progress Color\" name=\"PinCol2\" value=\"#000000\">\n           <input type=\"checkbox\" title=\"Dot On/Off\" name=\"Dotonoff\" checked=\"\">\n        <input type=\"color\" title=\"Dot Progress Color\" name=\"ProgressCol\" value=\"#e4d295\" condition=\"Dotonoff\">\n        <input type=\"color\" title=\"Time Color\" name=\"TimeCol\" value=\"#ffffff\">\n                <header>Download Button</header>  \n        <select title=\"Download Button\" name=\"Downbutton\">\n        <option value=\"player-with-download\">On</option>\n        <option value=\"player\" selected=\"\">Off</option>\n        </select>\n         <input type=\"color\" title=\"Download Color\" name=\"DownCol\" value=\"#ffffff\" condition=\"Downbutton == 'player-with-download'\">\n       \n        \n<header>Audio URL</header>\n            <input type=\"text\" title=\"Audio URL\" name=\"audioSrc\" value=\"https://larrylush.github.io/Blackunicornmusic/assets/audio/interior.mp3\">\n            <input type=\"checkbox\" title=\"Loop\" name=\"loopoption\">\n            <input type=\"checkbox\" title=\"Autoplay\" name=\"Autoplay\">\n                    <select title=\"Preload\" name=\"PreLoad\">\n        <option value=\"auto\">On</option>\n        <option value=\"metadata\" selected=\"\">Metadata</option>\n               </select>\n                \n                        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/lionaf.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n\n        </fieldset>\n                \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        \n           \n    <!-- End block parameters -->\n    </mbr-parameters>\n       <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n    \n    <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Sleep</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Deep Sleep Journey 17'47\"</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtxt\">Interiors - A deep expansive inner sound<br> journey to promote sleep</p>\n            </div>\n        </div>\n\n<div class=\"contenair\">\n<div class=\"ready-player-{{NumberPlayer}} {{Downbutton}}\">\n        <audio crossorigin=\"\" preload=\"PreLoad\" loop=\"{{loopoption}}\" autoplay=\"{{Autoplay}}\">\n            <source src=\"{{audioSrc}}\" type=\"audio/mpeg\">\n            <source src=\"{{audioSrc}}\" type=\"audio/ogg\">\n            <source src=\"{{audioSrc}}\" type=\"audio/wav\">\n        </audio>\n   \n <script mbr-if=\"NumberPlayer == 1\">\n        document.addEventListener('DOMContentLoaded', function() {\n            GreenAudioPlayer.init({\n                selector: '.player',\n                stopOthersOnPlay: true\n            });\n\n            GreenAudioPlayer.init({\n                selector: '.player-with-download',\n                stopOthersOnPlay: true,\n                showDownloadButton: true,\n                enableKeystrokes: true\n            });\n\n            GreenAudioPlayer.init({\n                selector: '.player-with-accessibility',\n                stopOthersOnPlay: true,\n                enableKeystrokes: true\n            });\n        });\n    </script>\n   </div>\n </div>\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\" width=\"800px\" height=\"267px\" version=\"1.1\" style=\"shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd\" viewBox=\"0 0 800 266.67\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n <g id=\"Plan_x0020_1\">\n  <metadata id=\"CorelCorpID_0Corel-Layer\"></metadata>\n  <rect fill=\"{{PlayerCol}}\" x=\"27.27\" y=\"118.39\" width=\"653.97\" height=\"77.23\"></rect>\n  <rect mbr-if=\"Volumeoff\" fill=\"{{VolColBack}}\" opacity=\"{{VolBckCol}}\" x=\"696.04\" y=\"55.95\" width=\"65.73\" height=\"203.75\"></rect>\n  <polygon fill=\"{{PlPaCol}}\" points=\"77.28,154.27 64.16,163.12 51.05,171.98 51.05,154.27 51.05,136.56 64.16,145.41 \"></polygon>\n  <text x=\"94.71\" y=\"160.77\" fill=\"{{TimeCol}}\">00:00</text>\n  <text x=\"487.29\" y=\"160.77\" fill=\"{{TimeCol}}\">00:00</text>\n  <rect fill=\"{{SliderCol}}\" x=\"147.72\" y=\"152.39\" width=\"156.97\" height=\"3.76\"></rect>\n  <rect fill=\"{{PinCol2}}\" x=\"317.45\" y=\"152.39\" width=\"157.87\" height=\"3.76\"></rect>\n  <circle mbr-if=\"Dotonoff\" fill=\"{{ProgressCol}}\" cx=\"311.75\" cy=\"154.52\" r=\"13.12\"></circle>\n  <polygon mbr-if=\"Volumeoff\" fill=\"{{VolumeCol}}\" points=\"712.37,13.16 728.5,13.16 739.59,5.94 739.62,24.21 739.65,42.48 729.94,35.26 712.37,35.26 \"></polygon>\n  <rect mbr-if=\"Volumeoff\" fill=\"{{SliderCol}}\" transform=\"matrix(2.64845E-14 -0.803535 1 2.12813E-14 726.013 242.808)\" width=\"118.55\" height=\"5.77\"></rect>\n  <rect mbr-if=\"Volumeoff\" fill=\"{{PinCol2}}\" transform=\"matrix(2.64845E-14 -0.57436 1 1.52117E-14 726.013 135.441)\" width=\"118.55\" height=\"5.77\"></rect>\n  <circle mbr-if=\"Dotonoff\" fill=\"{{ProgressCol}}\" cx=\"728.76\" cy=\"139.54\" r=\"13.12\"></circle>\n  <g>\n   <path mbr-if=\"Downbutton == 'player-with-download'\" fill=\"{{DownCol}}\" d=\"M623.81 159.65l0 -25.53 1.07 0 0 25.53 -1.07 0zm0.53 11.01l-5.8 -11.61 11.61 0 -5.81 11.61z\"></path>\n  </g>\n  <polygon mbr-if=\"Volumeoff\" fill=\"{{VolCol}}\" points=\"546.22,142.66 562.35,142.66 573.45,135.44 573.47,153.71 573.5,171.98 563.79,164.76 546.22,164.76 \"></polygon>\n </g>\n     </svg>\n              <br><br><h10>Click the \"gear\" icon to customize the Player Bar. <br> <br> The player will appear when viewing or publishing <br><strong>but work only when you publish on the FTP server</strong><br><br> This text will be removed on preview/publish.<br><br>Original script https://codepen.io/gregh </h10>\n    </div></div>\n</section>",
+          "_anchor": "audiobar-17",
+          "_isUserblock": true,
+          "_cid": "utCS1Ouzjc",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
