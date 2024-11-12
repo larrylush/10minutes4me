@@ -15,7 +15,7 @@
         "secondaryColor": "#89B0AE",
         "successColor": "#20AC6B",
         "infoColor": "#0AA3C2",
-        "warningColor": "#CC9900",
+        "warningColor": "#ffa600",
         "dangerColor": "#AE1E2C",
         "mainFont": "Inter Tight",
         "display1Font": "Inter Tight",
