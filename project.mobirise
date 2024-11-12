@@ -22,7 +22,7 @@
         "display1Size": 5,
         "display2Font": "Inter Tight",
         "display2Size": 4,
-        "display5Font": "Inter Tight",
+        "display5Font": "Lora",
         "display5Size": 2.5,
         "display7Font": "Inter Tight",
         "display7Size": 1.4,
@@ -259,6 +259,11 @@
         "url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap",
         "name": "Inter Tight",
         "css": "'Inter Tight', sans-serif"
+      },
+      {
+        "css": "'Lora', serif",
+        "name": "Lora",
+        "url": "https://fonts.googleapis.com/css?family=Lora:400,500,600,700,400i,500i,600i,700i"
       }
     ],
     "uniqCompNum": 68,
